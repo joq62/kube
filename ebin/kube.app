@@ -1,0 +1,13 @@
+{application,kube,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{kube_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[appl,appl_server,host_server,install_server,kube,
+                        kube_app,kube_server,kube_sup,lib_appl,lib_control,
+                        lib_host,lib_parent,lib_pod,local,ops_ssh,orchestrate,
+                        parent_server,pod_server,terminal_server]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
